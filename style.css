@@ -1,7 +1,13 @@
-body
-<link rel="stylesheet" href="style.css" />
 
-p
+body
 {
-  color:blue;
+  font-family: cursive;
+  background-color:#BEE1ED;
+  text-align:center;
 }
+h1
+{
+  text-decoration: underline;
+}
+
+body
