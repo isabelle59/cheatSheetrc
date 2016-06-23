@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>cheat sheet pour les nuls
+    <meta charset="utf-8" />
+    <title>les commandes de  raccourcis clavier</title>
+  </head>
+  <body>
+
+
+<h1>Qu'est-ce que les raccourcis clavier?</h1><br>
+
+  <p>Les raccourcis clavier sont les meilleurs moyens de pianoter sur le clavier plus rapidement.<br>
+    Ces fonctionnalités permettent aussi à l'utilisateur de se préserver de mouvements intempestifs.<br>
+    en gros, ils vous font travailler plus vite!</p><br>
+
+<h1>Déplacements</h1>
+
+      <p>cd <adresse du dossier> : Se rend au dossier.<br>
+    cd /<adresse du dossier> : Se rend au dossier à partir de la racine (commence par un / ).<br>
+    cd / : Se rend à la racine.<br>
+    cd .. : Se rend au dossier parent (on peut faire ../../dossier/dossier, cela suit le chemin).<br>
+    cd ~ : Se rend dans son dossier personnel<br>
+        ~ : équivaut à « /root/ » en utilisateur « root » (administrateur) ou « /home/<identifiant>/ » pour un « utilisateur normal ».<br>
+    cd ~<utilisateur> : Se rend au dossier personnel de l'utilisateur indiqué<p><br>
+
+      <h1>Listes et détails</h1>
+
+
+            <p>ls ou dir : Liste le contenu d'un dossier.<br>
+          ls -l : Liste un dossier en détails. (Souvent remplacé par l'alias ll)
+          df : Donne l'espace libre et occupé des disques et partitions.<br>
+          du -hs <dossier> : Donne la taille d'un dossier (avec les dossiers enfants compris).<br>
+              du -hs . : Donne la taille du dossier courant (avec les dossiers enfants compris).<br>
+          ls -a : Liste le contenu d'un dossier, y-compris les fichiers cachés (dont le nom commence par un point).<p><br>
+
+          <h1>Copier, déplacer, supprimer</h1>
+
+
+                <p>cp <adresse du fichier source> <adresse du fichier de destination> : Copier.<br>
+              mv <adresse du fichier source> <adresse du fichier de destination> : Déplacer ou renommer.<br>
+              rm <fichier> : Supprimer un ou des fichiers.<br>
+              rm -Rf <adresse> : Supprimer même les dossiers non vides.<br>
+              rmdir <dossier> : supprimer un ou des dossiers vides<p>
+
+                <h1>Créer</h1>
+
+    <p>mkdir <dossier> : Créer un dossier
+    pico <adresse> ou nano <adresse> : Édite un fichier en mode texte avec Pico (si le fichier n'existe pas il pourra le créer à la sauvegarde).<br>
+    ln -s <adresse à pointer> <nom du lien symbolique> : Créer un lien symbolique.<p>
+
+      <h1>Afficher</h1>
+
+    <p>cat <fichier> : Affiche le contenu du fichier dans la console en bloc.<br>
+    less <fichier> : Affiche le contenu du fichier dans la console avec défilement. Entrer q pour quitter.<br>
+    more <fichier> : Similaire à less.
+    head <fichier> : Affiche le début du fichier dans la console.<br>
+        head -n 10 <fichier> : Affiche les dix premières lignes du fichier dans la console.<br>
+    tail <fichier> : Affiche la fin du fichier dans la console.<br>
+        tail -n 10 <fichier> : Affiche les dix dernières lignes du fichier dans la console.<br>
+        tail -f <fichier>  : Affiche toutes nouvelles lignes dans la console.<p><br>
+
+          <h1>Fermer / Quitter / Déconnecter</h1>
+
+    exit
+  </body>
+  </html>
